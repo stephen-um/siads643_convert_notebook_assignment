@@ -97,10 +97,6 @@ def clean_transform_data(data):
         ('categorical_encode', categorical_transformer)
     ])
 
-    pipeline2 = Pipeline([
-        ('luxury_brand', LuxuryBrandTransformer(luxury_brands))
-    ])
-
     # Fit and transform data using pipeline
     clean_data = pipeline.fit_transform(data)
 
