@@ -1,0 +1,2 @@
+input_data_path: "data/car_price_prediction.csv"
+output_data_path: "data/car_price_prediction_clean_pipeline.csv"
